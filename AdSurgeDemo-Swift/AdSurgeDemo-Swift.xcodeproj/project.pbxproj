@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		444A2AF02F2A442700AFE7D6 /* AdSurgeSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 444A0F142F2A371F00AFE7D6 /* AdSurgeSDK.xcframework */; };
+		444A2AF12F2A442700AFE7D6 /* AdSurgeSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 444A0F142F2A371F00AFE7D6 /* AdSurgeSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4460CE652D8964E30070C77B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4460CE462D8964E10070C77B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4460CE4D2D8964E10070C77B;
+			remoteInfo = "ODCDemo-Swift";
+		};
+		4460CE6F2D8964E30070C77B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4460CE462D8964E10070C77B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4460CE4D2D8964E10070C77B;
+			remoteInfo = "ODCDemo-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		44CE36782DF8625600671724 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				444A2AF12F2A442700AFE7D6 /* AdSurgeSDK.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		444A0F142F2A371F00AFE7D6 /* AdSurgeSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AdSurgeSDK.xcframework; path = ../framework/AdSurgeSDK.xcframework; sourceTree = SOURCE_ROOT; };
+		4460CE4E2D8964E10070C77B /* AdSurgeDemo-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AdSurgeDemo-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4460CE642D8964E30070C77B /* AdSurgeDemo-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AdSurgeDemo-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4460CE6E2D8964E30070C77B /* AdSurgeDemo-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AdSurgeDemo-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		44D3F44E2F2A561B00D0B533 /* Exceptions for "AdSurgeDemo-Swift" folder in "AdSurgeDemo-Swift" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4460CE4D2D8964E10070C77B /* AdSurgeDemo-Swift */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4460CE502D8964E10070C77B /* AdSurgeDemo-Swift */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				44D3F44E2F2A561B00D0B533 /* Exceptions for "AdSurgeDemo-Swift" folder in "AdSurgeDemo-Swift" target */,
+			);
+			path = "AdSurgeDemo-Swift";
+			sourceTree = "<group>";
+		};
+		4460CE672D8964E30070C77B /* AdSurgeDemo-SwiftTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AdSurgeDemo-SwiftTests";
+			sourceTree = "<group>";
+		};
+		4460CE712D8964E30070C77B /* AdSurgeDemo-SwiftUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AdSurgeDemo-SwiftUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4460CE4B2D8964E10070C77B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				444A2AF02F2A442700AFE7D6 /* AdSurgeSDK.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4460CE612D8964E30070C77B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4460CE6B2D8964E30070C77B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4460CE452D8964E10070C77B = {
+			isa = PBXGroup;
+			children = (
+				444A0F142F2A371F00AFE7D6 /* AdSurgeSDK.xcframework */,
+				4460CE502D8964E10070C77B /* AdSurgeDemo-Swift */,
+				4460CE672D8964E30070C77B /* AdSurgeDemo-SwiftTests */,
+				4460CE712D8964E30070C77B /* AdSurgeDemo-SwiftUITests */,
+				4460CE4F2D8964E10070C77B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4460CE4F2D8964E10070C77B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4460CE4E2D8964E10070C77B /* AdSurgeDemo-Swift.app */,
+				4460CE642D8964E30070C77B /* AdSurgeDemo-SwiftTests.xctest */,
+				4460CE6E2D8964E30070C77B /* AdSurgeDemo-SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4460CE4D2D8964E10070C77B /* AdSurgeDemo-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4460CE772D8964E30070C77B /* Build configuration list for PBXNativeTarget "AdSurgeDemo-Swift" */;
+			buildPhases = (
+				4460CE4A2D8964E10070C77B /* Sources */,
+				4460CE4B2D8964E10070C77B /* Frameworks */,
+				4460CE4C2D8964E10070C77B /* Resources */,
+				44CE36782DF8625600671724 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4460CE502D8964E10070C77B /* AdSurgeDemo-Swift */,
+			);
+			name = "AdSurgeDemo-Swift";
+			packageProductDependencies = (
+			);
+			productName = "ODCDemo-Swift";
+			productReference = 4460CE4E2D8964E10070C77B /* AdSurgeDemo-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4460CE632D8964E30070C77B /* AdSurgeDemo-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4460CE7C2D8964E30070C77B /* Build configuration list for PBXNativeTarget "AdSurgeDemo-SwiftTests" */;
+			buildPhases = (
+				4460CE602D8964E30070C77B /* Sources */,
+				4460CE612D8964E30070C77B /* Frameworks */,
+				4460CE622D8964E30070C77B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4460CE662D8964E30070C77B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4460CE672D8964E30070C77B /* AdSurgeDemo-SwiftTests */,
+			);
+			name = "AdSurgeDemo-SwiftTests";
+			packageProductDependencies = (
+			);
+			productName = "ODCDemo-SwiftTests";
+			productReference = 4460CE642D8964E30070C77B /* AdSurgeDemo-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4460CE6D2D8964E30070C77B /* AdSurgeDemo-SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4460CE7F2D8964E30070C77B /* Build configuration list for PBXNativeTarget "AdSurgeDemo-SwiftUITests" */;
+			buildPhases = (
+				4460CE6A2D8964E30070C77B /* Sources */,
+				4460CE6B2D8964E30070C77B /* Frameworks */,
+				4460CE6C2D8964E30070C77B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4460CE702D8964E30070C77B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4460CE712D8964E30070C77B /* AdSurgeDemo-SwiftUITests */,
+			);
+			name = "AdSurgeDemo-SwiftUITests";
+			packageProductDependencies = (
+			);
+			productName = "ODCDemo-SwiftUITests";
+			productReference = 4460CE6E2D8964E30070C77B /* AdSurgeDemo-SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4460CE462D8964E10070C77B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					4460CE4D2D8964E10070C77B = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					4460CE632D8964E30070C77B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 4460CE4D2D8964E10070C77B;
+					};
+					4460CE6D2D8964E30070C77B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 4460CE4D2D8964E10070C77B;
+					};
+				};
+			};
+			buildConfigurationList = 4460CE492D8964E10070C77B /* Build configuration list for PBXProject "AdSurgeDemo-Swift" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4460CE452D8964E10070C77B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4460CE4F2D8964E10070C77B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4460CE4D2D8964E10070C77B /* AdSurgeDemo-Swift */,
+				4460CE632D8964E30070C77B /* AdSurgeDemo-SwiftTests */,
+				4460CE6D2D8964E30070C77B /* AdSurgeDemo-SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4460CE4C2D8964E10070C77B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4460CE622D8964E30070C77B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4460CE6C2D8964E30070C77B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4460CE4A2D8964E10070C77B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4460CE602D8964E30070C77B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4460CE6A2D8964E30070C77B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4460CE662D8964E30070C77B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4460CE4D2D8964E10070C77B /* AdSurgeDemo-Swift */;
+			targetProxy = 4460CE652D8964E30070C77B /* PBXContainerItemProxy */;
+		};
+		4460CE702D8964E30070C77B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4460CE4D2D8964E10070C77B /* AdSurgeDemo-Swift */;
+			targetProxy = 4460CE6F2D8964E30070C77B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4460CE782D8964E30070C77B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = GE6TQN759S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AdSurgeDemo-Swift/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = AdSurge;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "get idfa test";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AdSurge.Dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "AdSurge-Explicit-Development";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4460CE792D8964E30070C77B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = GE6TQN759S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AdSurgeDemo-Swift/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = AdSurge;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "get idfa test";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AdSurge.Dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "AdSurge-Explicit-Ad Hoc";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4460CE7A2D8964E30070C77B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4460CE7B2D8964E30070C77B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4460CE7D2D8964E30070C77B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = GE6TQN759S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AdSurge.Dev-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "AdSurge-Wildcard-Development";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdSurgeDemo-Swift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AdSurgeDemo-Swift";
+			};
+			name = Debug;
+		};
+		4460CE7E2D8964E30070C77B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = GE6TQN759S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AdSurge.Dev-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "AdSurge-Wildcard-Development";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdSurgeDemo-Swift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AdSurgeDemo-Swift";
+			};
+			name = Release;
+		};
+		4460CE802D8964E30070C77B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = GE6TQN759S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AdSurge.Dev-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "AdSurge-Wildcard-Development";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AdSurgeDemo-Swift";
+			};
+			name = Debug;
+		};
+		4460CE812D8964E30070C77B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = GE6TQN759S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AdSurge.Dev-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "AdSurge-Wildcard-Development";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AdSurgeDemo-Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4460CE492D8964E10070C77B /* Build configuration list for PBXProject "AdSurgeDemo-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4460CE7A2D8964E30070C77B /* Debug */,
+				4460CE7B2D8964E30070C77B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4460CE772D8964E30070C77B /* Build configuration list for PBXNativeTarget "AdSurgeDemo-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4460CE782D8964E30070C77B /* Debug */,
+				4460CE792D8964E30070C77B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4460CE7C2D8964E30070C77B /* Build configuration list for PBXNativeTarget "AdSurgeDemo-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4460CE7D2D8964E30070C77B /* Debug */,
+				4460CE7E2D8964E30070C77B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4460CE7F2D8964E30070C77B /* Build configuration list for PBXNativeTarget "AdSurgeDemo-SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4460CE802D8964E30070C77B /* Debug */,
+				4460CE812D8964E30070C77B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4460CE462D8964E10070C77B /* Project object */;
+}
