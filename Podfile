@@ -1,3 +1,4 @@
+workspace 'AdSurge.xcworkspace'
 platform :ios, '12.0'
 
 target 'AdSurgeDemo' do
