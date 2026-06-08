@@ -148,6 +148,7 @@
 				4460CE4A2D8964E10070C77B /* Sources */,
 				4460CE4B2D8964E10070C77B /* Frameworks */,
 				4460CE4C2D8964E10070C77B /* Resources */,
+				C3FE51F9532672BD502CF2E3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);

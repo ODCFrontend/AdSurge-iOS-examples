@@ -148,6 +148,7 @@
 				441FF3722D883D0400C84BD0 /* Sources */,
 				441FF3732D883D0400C84BD0 /* Frameworks */,
 				441FF3742D883D0400C84BD0 /* Resources */,
+				B03498F0120DA8B6D1D10970 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -271,6 +272,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		CE40061EF9297876BC5BF80B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdSurgeDemo/Pods-AdSurgeDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdSurgeDemo/Pods-AdSurgeDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AdSurgeDemo/Pods-AdSurgeDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D4DF2270DED429B2A9F98059 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
