@@ -1,0 +1,8 @@
+platform :ios, '13.0'
+
+workspace 'AdSurge.xcworkspace'
+
+target 'AdSurgeDemo-Swift' do
+  project 'AdSurgeDemo-Swift.xcodeproj'
+  pod 'AdSurgeADN'
+end

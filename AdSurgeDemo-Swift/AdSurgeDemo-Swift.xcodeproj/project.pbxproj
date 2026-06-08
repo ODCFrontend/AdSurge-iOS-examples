@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		444A2AF02F2A442700AFE7D6 /* AdSurgeSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 444A0F142F2A371F00AFE7D6 /* AdSurgeSDK.xcframework */; };
-		444A2AF12F2A442700AFE7D6 /* AdSurgeSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 444A0F142F2A371F00AFE7D6 /* AdSurgeSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A98ED347951B64EE4FC0C281 /* Pods_AdSurgeDemo_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A26BB14A2BFF510FC8D118 /* Pods_AdSurgeDemo_Swift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,25 +27,13 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		44CE36782DF8625600671724 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				444A2AF12F2A442700AFE7D6 /* AdSurgeSDK.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		444A0F142F2A371F00AFE7D6 /* AdSurgeSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AdSurgeSDK.xcframework; path = ../framework/AdSurgeSDK.xcframework; sourceTree = SOURCE_ROOT; };
 		4460CE4E2D8964E10070C77B /* AdSurgeDemo-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AdSurgeDemo-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4460CE642D8964E30070C77B /* AdSurgeDemo-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AdSurgeDemo-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4460CE6E2D8964E30070C77B /* AdSurgeDemo-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AdSurgeDemo-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72A26BB14A2BFF510FC8D118 /* Pods_AdSurgeDemo_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdSurgeDemo_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		810D11AFBE7FE67EF509F2F0 /* Pods-AdSurgeDemo-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdSurgeDemo-Swift.release.xcconfig"; path = "Target Support Files/Pods-AdSurgeDemo-Swift/Pods-AdSurgeDemo-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		BB00DC6EC92C3D4CE7AA72C8 /* Pods-AdSurgeDemo-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdSurgeDemo-Swift.debug.xcconfig"; path = "Target Support Files/Pods-AdSurgeDemo-Swift/Pods-AdSurgeDemo-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -70,11 +57,15 @@
 		};
 		4460CE672D8964E30070C77B /* AdSurgeDemo-SwiftTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = "AdSurgeDemo-SwiftTests";
 			sourceTree = "<group>";
 		};
 		4460CE712D8964E30070C77B /* AdSurgeDemo-SwiftUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = "AdSurgeDemo-SwiftUITests";
 			sourceTree = "<group>";
 		};
@@ -85,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				444A2AF02F2A442700AFE7D6 /* AdSurgeSDK.xcframework in Frameworks */,
+				A98ED347951B64EE4FC0C281 /* Pods_AdSurgeDemo_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,11 +100,12 @@
 		4460CE452D8964E10070C77B = {
 			isa = PBXGroup;
 			children = (
-				444A0F142F2A371F00AFE7D6 /* AdSurgeSDK.xcframework */,
 				4460CE502D8964E10070C77B /* AdSurgeDemo-Swift */,
 				4460CE672D8964E30070C77B /* AdSurgeDemo-SwiftTests */,
 				4460CE712D8964E30070C77B /* AdSurgeDemo-SwiftUITests */,
 				4460CE4F2D8964E10070C77B /* Products */,
+				5ABDAC6193E5F096A40A372F /* Pods */,
+				8B9AB788923469E3AE3DD6CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +119,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		5ABDAC6193E5F096A40A372F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB00DC6EC92C3D4CE7AA72C8 /* Pods-AdSurgeDemo-Swift.debug.xcconfig */,
+				810D11AFBE7FE67EF509F2F0 /* Pods-AdSurgeDemo-Swift.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		8B9AB788923469E3AE3DD6CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72A26BB14A2BFF510FC8D118 /* Pods_AdSurgeDemo_Swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,10 +144,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4460CE772D8964E30070C77B /* Build configuration list for PBXNativeTarget "AdSurgeDemo-Swift" */;
 			buildPhases = (
+				C1BE9E66911D4949C8F93A88 /* [CP] Check Pods Manifest.lock */,
 				4460CE4A2D8964E10070C77B /* Sources */,
 				4460CE4B2D8964E10070C77B /* Frameworks */,
 				4460CE4C2D8964E10070C77B /* Resources */,
-				44CE36782DF8625600671724 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -147,8 +157,6 @@
 				4460CE502D8964E10070C77B /* AdSurgeDemo-Swift */,
 			);
 			name = "AdSurgeDemo-Swift";
-			packageProductDependencies = (
-			);
 			productName = "ODCDemo-Swift";
 			productReference = 4460CE4E2D8964E10070C77B /* AdSurgeDemo-Swift.app */;
 			productType = "com.apple.product-type.application";
@@ -170,8 +178,6 @@
 				4460CE672D8964E30070C77B /* AdSurgeDemo-SwiftTests */,
 			);
 			name = "AdSurgeDemo-SwiftTests";
-			packageProductDependencies = (
-			);
 			productName = "ODCDemo-SwiftTests";
 			productReference = 4460CE642D8964E30070C77B /* AdSurgeDemo-SwiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -193,8 +199,6 @@
 				4460CE712D8964E30070C77B /* AdSurgeDemo-SwiftUITests */,
 			);
 			name = "AdSurgeDemo-SwiftUITests";
-			packageProductDependencies = (
-			);
 			productName = "ODCDemo-SwiftUITests";
 			productReference = 4460CE6E2D8964E30070C77B /* AdSurgeDemo-SwiftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -267,6 +271,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C1BE9E66911D4949C8F93A88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdSurgeDemo-Swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4460CE4A2D8964E10070C77B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -307,6 +336,7 @@
 /* Begin XCBuildConfiguration section */
 		4460CE782D8964E30070C77B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB00DC6EC92C3D4CE7AA72C8 /* Pods-AdSurgeDemo-Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -342,6 +372,7 @@
 		};
 		4460CE792D8964E30070C77B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 810D11AFBE7FE67EF509F2F0 /* Pods-AdSurgeDemo-Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -412,7 +443,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -475,7 +506,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
